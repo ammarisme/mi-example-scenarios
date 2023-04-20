@@ -4,7 +4,7 @@ info:
   description: API Definition of HealthcareAPI
   version: 1.0.0
 servers:
-- url: 'http://localhost:8290/healthcare         '
+- url: http://localhost:8290/healthcare
 paths:
   /categories/{category}/reserve:
     post:
@@ -12,6 +12,8 @@ paths:
       - name: category
         in: path
         required: true
+        style: simple
+        explode: false
         schema:
           type: string
       requestBody:

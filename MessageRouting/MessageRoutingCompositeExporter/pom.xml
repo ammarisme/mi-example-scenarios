@@ -4,18 +4,18 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.example</groupId>
-    <artifactId>MyDemoPriject</artifactId>
+    <artifactId>MessageRouting</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
   <groupId>com.example</groupId>
-  <artifactId>MyDemoPrijectCompositeExporter</artifactId>
+  <artifactId>MessageRoutingCompositeExporter</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>carbon/application</packaging>
-  <name>MyDemoPrijectCompositeExporter</name>
-  <description>MyDemoPrijectCompositeExporter</description>
+  <name>MessageRoutingCompositeExporter</name>
+  <description>MessageRoutingCompositeExporter</description>
   <properties>
-    <com.example.metadata_._HealthcareAPI_metadata>capp/EnterpriseServiceBus</com.example.metadata_._HealthcareAPI_metadata>
     <com.example.endpoint_._GrandOakEP>capp/EnterpriseServiceBus</com.example.endpoint_._GrandOakEP>
+    <com.example.metadata_._HealthcareAPI_metadata>capp/EnterpriseServiceBus</com.example.metadata_._HealthcareAPI_metadata>
     <com.example.api_._HealthcareAPI>capp/EnterpriseServiceBus</com.example.api_._HealthcareAPI>
     <com.example.endpoint_._ClemencyEP>capp/EnterpriseServiceBus</com.example.endpoint_._ClemencyEP>
     <com.example.endpoint_._PineValleyEP>capp/EnterpriseServiceBus</com.example.endpoint_._PineValleyEP>
@@ -24,16 +24,16 @@
   </properties>
   <dependencies>
     <dependency>
-      <groupId>com.example.metadata</groupId>
-      <artifactId>HealthcareAPI_metadata</artifactId>
-      <version>1.0.0</version>
-      <type>yaml</type>
-    </dependency>
-    <dependency>
       <groupId>com.example.endpoint</groupId>
       <artifactId>GrandOakEP</artifactId>
       <version>1.0.0</version>
       <type>xml</type>
+    </dependency>
+    <dependency>
+      <groupId>com.example.metadata</groupId>
+      <artifactId>HealthcareAPI_metadata</artifactId>
+      <version>1.0.0</version>
+      <type>yaml</type>
     </dependency>
     <dependency>
       <groupId>com.example.api</groupId>

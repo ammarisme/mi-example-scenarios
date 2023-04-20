@@ -3,15 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
-  <artifactId>MyDemoPriject</artifactId>
+  <artifactId>Routing</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>MyDemoPriject</name>
-  <description>MyDemoPriject</description>
-  <modules>
-    <module>MyDemoPrijectConfigs</module>
-    <module>MyDemoPrijectCompositeExporter</module>
-  </modules>
+  <name>Routing</name>
+  <description>Routing</description>
   <scm>
     <connection>scm:git:https://github.com/username/repository.git</connection>
     <developerConnection>scm:git:https://github.com/username/repository.git</developerConnection>
